@@ -42,7 +42,7 @@ dbRef = db.ref();
 // Ends here
 
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 443;
 
 const expressServer = app.listen(port);
 const io = socketio(expressServer);
